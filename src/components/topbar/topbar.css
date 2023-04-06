@@ -1,0 +1,119 @@
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#light .topbar{
+    background-color: white;
+}
+
+#dark .topbar{
+    background-color: #555;
+}
+
+#light .logo{
+    color: blueviolet;
+}
+
+#dark .logo{
+    color: #d8860b;
+}
+
+#light .topbarIconContainer{
+    color: #555;
+}
+
+#dark .topbarIconContainer{
+    color: yellow;
+}
+
+#light .topIconBadge{
+    background-color: red;
+    color: white;
+}
+
+#dark .topIconBadge{
+    background-color: red;
+    color: black;
+}
+
+#light .buttonMoon{
+    border: 0;
+    background-color:white;
+}
+
+#dark .buttonMoon{
+    border: 0;
+    background-color:#555;
+}
+
+#dark i{
+    background-color: yellow;
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding: 0px, 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.topRight{
+    display: flex;
+    align-items: center;
+
+}
+
+.topbarIconContainer{
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+
+}
+
+.topIconBadge{
+    width: 15px;
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttonMoon{
+    border: 0;
+    background-color:white;
+}
+
+.buttonMoon:hover{
+    background-color: white;
+    cursor: pointer;
+}
+
+
+

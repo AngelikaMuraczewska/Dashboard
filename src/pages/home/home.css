@@ -1,0 +1,12 @@
+.home{
+    flex: 4;
+    background-color: white;
+}
+
+#dark .home{
+    background-color: #333;
+}
+
+
+
+
